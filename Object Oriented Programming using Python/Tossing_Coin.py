@@ -9,3 +9,10 @@ class Coin:
             self.sideup = 'Head'
         else:
             self.sideup = 'Tail'
+            
+    def get_sideup(self):
+        return self.sideup
+    
+obj1 = Coin()
+obj2 = Coin()
+obj3 = Coin()
