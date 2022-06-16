@@ -12,7 +12,14 @@ class Coin:
             
     def get_sideup(self):
         return self.sideup
+def main():
+    # creating object of the class 
+    obj1 = Coin()
+    # up side of the coin is 
+    print("Up side of the coin is " + str(obj1.get_sideup()))
     
-obj1 = Coin()
-obj1.toss()
-print(obj1.get_sideup())
+    # tossing of the Coin 
+    print("I'm tossing a coin......")
+    
+    # After tossing the up side of the coin is 
+    print("After tossing the up side of the coin " + str(obj1.get_sideup()))
