@@ -14,5 +14,5 @@ class Coin:
         return self.sideup
     
 obj1 = Coin()
-obj2 = Coin()
-obj3 = Coin()
+obj1.toss()
+print(obj1.get_sideup())
