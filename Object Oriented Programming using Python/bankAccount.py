@@ -19,3 +19,18 @@ class BankAccount:
         return self.__balance
         
         
+def main():
+    # creating object of the BankAccount class 
+    obj1 = BankAccount(10000)
+    # Check balance in your bank account
+    print("Current Balance in your bank account is : " ,obj1.checkBalance())
+    
+    money = float(input("How much money you want to deposit to your bank account? : "))
+    print("I will deposit this amount into bank account!")
+    obj1.deposit(money)
+    
+    print("After dposit, now the Current Balance in your bank account is : " ,obj1.checkBalance())
+    
+    
+    
+main()
