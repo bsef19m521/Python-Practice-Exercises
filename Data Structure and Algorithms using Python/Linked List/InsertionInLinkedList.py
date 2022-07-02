@@ -44,7 +44,7 @@ class LinkedList():
         
         # travser the list to reach end point of the linked list
         
-        while curr!=None:
+        while curr.next:
             curr = curr.next
             
         # After reaching at the end of the linked list, the  change the next of the last node 
